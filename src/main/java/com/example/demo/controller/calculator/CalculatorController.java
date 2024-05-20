@@ -1,7 +1,7 @@
-package com.example.study.controller.calculator;
+package com.example.demo.controller.calculator;
 
-import com.example.study.dto.calculator.CalculatorAddRequest;
-import com.example.study.dto.calculator.CalculatorMultiplyRequest;
+import com.example.demo.dto.calculator.CalculatorAddRequest;
+import com.example.demo.dto.calculator.CalculatorMultiplyRequest;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
