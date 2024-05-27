@@ -1,4 +1,4 @@
-package com.example.demo.dto.calculator;
+package com.example.study.dto.calculator;
 
 public class CalculatorAddRequest {
     private final int number1;

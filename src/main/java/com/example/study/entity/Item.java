@@ -1,7 +1,8 @@
-package com.example.demo.entity;
+package com.example.study.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -9,7 +10,6 @@ import lombok.*;
 @Builder
 @Entity
 @Table(name = "item")
-
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,5 +23,4 @@ public class Item {
 
     @Column(name = "startingPrice")
     private String startingPrice;
-
 }
